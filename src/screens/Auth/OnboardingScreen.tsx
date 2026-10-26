@@ -43,7 +43,7 @@ export default function OnboardingScreen() {
           <Animated.View entering={FadeIn.delay(400).duration(1000)} style={styles.illustrationContainer}>
             <View style={[styles.glowCircle, { backgroundColor: theme.accent + '20' }]} />
             <Image 
-              source={require('@/assets/maxtrack_icon_no_text.png')} 
+              source={require('@/assets/images/appicon_transparent.png')} 
               style={styles.illustration}
               resizeMode="contain"
             />
